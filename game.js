@@ -2,18 +2,41 @@ const mythologies = {
     greek: {
         name: "Greek Mythology",
         creatures: [
-            { name: "Zeus Dragon", rarity: "Legendary", stars: 5, mythology: "Greek", description: "A divine dragon blessed by Zeus himself" },
-            { name: "Pegasus", rarity: "Legendary", stars: 5, mythology: "Greek", description: "The divine winged stallion" },
-            { name: "Cerberus", rarity: "Legendary", stars: 5, mythology: "Greek", description: "Three-headed guardian of the Underworld" },
+            // Gods - Legendary (5★)
+            { name: "Zeus", rarity: "Legendary", stars: 5, mythology: "Greek", description: "King of the Gods, God of Sky and Thunder" },
+            { name: "Poseidon", rarity: "Legendary", stars: 5, mythology: "Greek", description: "God of the Sea, Earthquakes, and Storms" },
+            { name: "Hades", rarity: "Legendary", stars: 5, mythology: "Greek", description: "God of the Underworld and the Dead" },
+            { name: "Athena", rarity: "Legendary", stars: 5, mythology: "Greek", description: "Goddess of Wisdom, War Strategy, and Crafts" },
+            { name: "Apollo", rarity: "Legendary", stars: 5, mythology: "Greek", description: "God of Sun, Music, Poetry, and Prophecy" },
+            { name: "Artemis", rarity: "Legendary", stars: 5, mythology: "Greek", description: "Goddess of the Hunt, Moon, and Wilderness" },
+            { name: "Ares", rarity: "Legendary", stars: 5, mythology: "Greek", description: "God of War, Violence, and Bloodshed" },
+            { name: "Hephaestus", rarity: "Legendary", stars: 5, mythology: "Greek", description: "God of Fire, Metalworking, and Craftsmanship" },
+            { name: "Hermes", rarity: "Legendary", stars: 5, mythology: "Greek", description: "God of Commerce, Thieves, and Messenger of Gods" },
+            { name: "Dionysus", rarity: "Legendary", stars: 5, mythology: "Greek", description: "God of Wine, Festivity, and Ecstasy" },
+
+            // Divine Beings - Epic (4★)
+            { name: "Pegasus", rarity: "Epic", stars: 4, mythology: "Greek", description: "The divine winged stallion" },
+            { name: "Cerberus", rarity: "Epic", stars: 4, mythology: "Greek", description: "Three-headed guardian of the Underworld" },
             { name: "Hydra", rarity: "Epic", stars: 4, mythology: "Greek", description: "Many-headed serpentine monster" },
             { name: "Minotaur", rarity: "Epic", stars: 4, mythology: "Greek", description: "Half-man, half-bull creature of the labyrinth" },
             { name: "Chimera", rarity: "Epic", stars: 4, mythology: "Greek", description: "Lion-headed beast with a serpent tail" },
             { name: "Griffin", rarity: "Epic", stars: 4, mythology: "Greek", description: "Majestic eagle-lion hybrid" },
+            { name: "Medusa", rarity: "Epic", stars: 4, mythology: "Greek", description: "Gorgon with snakes for hair, turns onlookers to stone" },
+            { name: "Phoenix", rarity: "Epic", stars: 4, mythology: "Greek", description: "Immortal bird reborn from its own ashes" },
+
+            // Mythical Beings - Rare (3★)
             { name: "Centaur", rarity: "Rare", stars: 3, mythology: "Greek", description: "Half-human, half-horse warrior" },
             { name: "Harpy", rarity: "Rare", stars: 3, mythology: "Greek", description: "Half-bird, half-woman creature" },
             { name: "Siren", rarity: "Rare", stars: 3, mythology: "Greek", description: "Enchanting sea creature" },
+            { name: "Cyclops", rarity: "Rare", stars: 3, mythology: "Greek", description: "One-eyed giant craftsman" },
+            { name: "Sphinx", rarity: "Rare", stars: 3, mythology: "Greek", description: "Riddling creature with lion's body and human head" },
+            { name: "Echidna", rarity: "Rare", stars: 3, mythology: "Greek", description: "Mother of Monsters, half-woman half-snake" },
+
+            // Nature Spirits - Common (2★)
             { name: "Satyr", rarity: "Common", stars: 2, mythology: "Greek", description: "Nature spirit with goat features" },
-            { name: "Dryad", rarity: "Common", stars: 2, mythology: "Greek", description: "Tree nymph of the forests" }
+            { name: "Dryad", rarity: "Common", stars: 2, mythology: "Greek", description: "Tree nymph of the forests" },
+            { name: "Naiad", rarity: "Common", stars: 2, mythology: "Greek", description: "Fresh water nymph" },
+            { name: "Oceanid", rarity: "Common", stars: 2, mythology: "Greek", description: "Sea nymph daughter of Oceanus" }
         ]
     },
     norse: {
@@ -36,18 +59,41 @@ const mythologies = {
     japanese: {
         name: "Japanese Mythology",
         creatures: [
-            { name: "Dragon King", rarity: "Legendary", stars: 5, mythology: "Japanese", description: "Ruler of the seas" },
-            { name: "Nine-Tailed Kitsune", rarity: "Legendary", stars: 5, mythology: "Japanese", description: "Ancient fox spirit" },
-            { name: "Amaterasu Wolf", rarity: "Legendary", stars: 5, mythology: "Japanese", description: "Divine sun wolf" },
+            // Major Deities - Legendary (5★)
+            { name: "Amaterasu", rarity: "Legendary", stars: 5, mythology: "Japanese", description: "Supreme sun goddess and ruler of the heavens" },
+            { name: "Susanoo", rarity: "Legendary", stars: 5, mythology: "Japanese", description: "Powerful storm god and brother of Amaterasu" },
+            { name: "Tsukuyomi", rarity: "Legendary", stars: 5, mythology: "Japanese", description: "God of the moon and night" },
+            { name: "Izanagi", rarity: "Legendary", stars: 5, mythology: "Japanese", description: "Creator god, father of many deities" },
+            { name: "Izanami", rarity: "Legendary", stars: 5, mythology: "Japanese", description: "Creator goddess, mother of gods and death" },
+            { name: "Hachiman", rarity: "Legendary", stars: 5, mythology: "Japanese", description: "God of war and archery" },
+            { name: "Inari", rarity: "Legendary", stars: 5, mythology: "Japanese", description: "God/dess of fertility, rice, and foxes" },
+            { name: "Benzaiten", rarity: "Legendary", stars: 5, mythology: "Japanese", description: "Goddess of everything that flows" },
+            { name: "Raijin", rarity: "Legendary", stars: 5, mythology: "Japanese", description: "God of thunder and lightning" },
+            { name: "Fujin", rarity: "Legendary", stars: 5, mythology: "Japanese", description: "God of wind" },
+
+            // Divine Beings - Epic (4★)
+            { name: "Dragon King", rarity: "Epic", stars: 4, mythology: "Japanese", description: "Ruler of the seas" },
+            { name: "Nine-Tailed Kitsune", rarity: "Epic", stars: 4, mythology: "Japanese", description: "Ancient fox spirit" },
+            { name: "Yamata no Orochi", rarity: "Epic", stars: 4, mythology: "Japanese", description: "Eight-headed serpent dragon" },
             { name: "Oni", rarity: "Epic", stars: 4, mythology: "Japanese", description: "Fearsome demon warrior" },
             { name: "Tengu", rarity: "Epic", stars: 4, mythology: "Japanese", description: "Mountain spirit" },
-            { name: "Tsukumogami", rarity: "Epic", stars: 4, mythology: "Japanese", description: "Ancient object spirit" },
             { name: "Raiju", rarity: "Epic", stars: 4, mythology: "Japanese", description: "Thunder beast" },
+            { name: "Yatagarasu", rarity: "Epic", stars: 4, mythology: "Japanese", description: "Three-legged crow of the sun" },
+            { name: "Shisa", rarity: "Epic", stars: 4, mythology: "Japanese", description: "Lion-dog guardian deity" },
+
+            // Spirits - Rare (3★)
             { name: "Kappa", rarity: "Rare", stars: 3, mythology: "Japanese", description: "Water imp" },
             { name: "Nekomata", rarity: "Rare", stars: 3, mythology: "Japanese", description: "Fork-tailed cat spirit" },
             { name: "Kodama", rarity: "Rare", stars: 3, mythology: "Japanese", description: "Tree spirit" },
+            { name: "Kasa-obake", rarity: "Rare", stars: 3, mythology: "Japanese", description: "Umbrella spirit" },
+            { name: "Karakasa", rarity: "Rare", stars: 3, mythology: "Japanese", description: "One-eyed umbrella yokai" },
+            { name: "Tsukumogami", rarity: "Rare", stars: 3, mythology: "Japanese", description: "Ancient object spirit" },
+
+            // Common Yokai - Common (2★)
             { name: "Tanuki", rarity: "Common", stars: 2, mythology: "Japanese", description: "Shapeshifting raccoon dog" },
-            { name: "Bakeneko", rarity: "Common", stars: 2, mythology: "Japanese", description: "Mysterious cat creature" }
+            { name: "Bakeneko", rarity: "Common", stars: 2, mythology: "Japanese", description: "Mysterious cat creature" },
+            { name: "Kitsune", rarity: "Common", stars: 2, mythology: "Japanese", description: "Regular fox spirit" },
+            { name: "Mujina", rarity: "Common", stars: 2, mythology: "Japanese", description: "Shapeshifting badger" }
         ]
     },
     welsh: {
