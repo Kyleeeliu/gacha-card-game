@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mythical Legends Gacha</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="startScreen" class="start-screen">
+        <div class="start-content">
+            <h1>Mythical Legends</h1>
+            <p class="tagline">Collect legendary creatures from ancient mythologies</p>
+            <div class="menu-buttons">
+                <button id="pullBtn" class="menu-button">Pull Cards</button>
+                <button id="collectionBtn" class="menu-button">My Collection</button>
+            </div>
+        </div>
+    </div>
+    <div id="gameContainer" class="container" style="display: none;">
+        <h1>Mythical Legends</h1>
+        <div class="game-area">
+            <div class="summon-section">
+                <button id="summonBtn" class="summon-button">Summon Creature</button>
+                <div id="summonAnimation" class="summon-animation"></div>
+            </div>
+            <div class="collection-section">
+                <h2>Your Collection</h2>
+                <div id="collection" class="collection-grid"></div>
+            </div>
+        </div>
+        <div class="stats">
+            <p>Gems: <span id="gemCount">100</span></p>
+        </div>
+    </div>
+    <div id="devConsole" class="dev-console" style="display: none;">
+        <div class="dev-console-header">
+            <h3>Developer Console</h3>
+            <button id="closeConsole">×</button>
+        </div>
+        <div class="dev-console-content">
+            <div class="console-buttons">
+                <button data-command="addGems">Add 1000 Gems</button>
+                <button data-command="addLegendary">Add Random Legendary</button>
+                <button data-command="clearCollection">Clear Collection</button>
+                <button data-command="addAllCreatures">Add All Creatures</button>
+            </div>
+            <div class="console-log"></div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html> 
