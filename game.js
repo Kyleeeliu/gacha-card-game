@@ -42,18 +42,41 @@ const mythologies = {
     norse: {
         name: "Norse Mythology",
         creatures: [
-            { name: "Jormungandr", rarity: "Legendary", stars: 5, mythology: "Norse", description: "The World Serpent" },
-            { name: "Fenrir", rarity: "Legendary", stars: 5, mythology: "Norse", description: "The mighty wolf, son of Loki" },
-            { name: "Sleipnir", rarity: "Legendary", stars: 5, mythology: "Norse", description: "Odin's eight-legged steed" },
-            { name: "Valkyrie", rarity: "Epic", stars: 4, mythology: "Norse", description: "Chooser of the slain" },
-            { name: "Frost Giant", rarity: "Epic", stars: 4, mythology: "Norse", description: "Ancient being of ice and snow" },
+            // Gods - Legendary (5★)
+            { name: "Odin", rarity: "Legendary", stars: 5, mythology: "Norse", description: "All-Father, god of wisdom, poetry, death, and magic" },
+            { name: "Thor", rarity: "Legendary", stars: 5, mythology: "Norse", description: "God of thunder, lightning, storms, and strength" },
+            { name: "Freya", rarity: "Legendary", stars: 5, mythology: "Norse", description: "Goddess of love, beauty, fertility, and war" },
+            { name: "Loki", rarity: "Legendary", stars: 5, mythology: "Norse", description: "God of mischief, chaos, and deception" },
+            { name: "Tyr", rarity: "Legendary", stars: 5, mythology: "Norse", description: "One-handed god of war, law, and justice" },
+            { name: "Heimdall", rarity: "Legendary", stars: 5, mythology: "Norse", description: "All-seeing guardian of Bifrost" },
+            { name: "Baldur", rarity: "Legendary", stars: 5, mythology: "Norse", description: "God of light, purity, and beauty" },
+            { name: "Frigg", rarity: "Legendary", stars: 5, mythology: "Norse", description: "Queen of Asgard, goddess of foresight" },
+            { name: "Freyr", rarity: "Legendary", stars: 5, mythology: "Norse", description: "God of prosperity, fertility, and sunshine" },
+            { name: "Hel", rarity: "Legendary", stars: 5, mythology: "Norse", description: "Ruler of Helheim and the dishonored dead" },
+
+            // Divine Beasts - Epic (4★)
+            { name: "Jormungandr", rarity: "Epic", stars: 4, mythology: "Norse", description: "The World Serpent, encircles Midgard" },
+            { name: "Fenrir", rarity: "Epic", stars: 4, mythology: "Norse", description: "The mighty wolf, son of Loki" },
+            { name: "Sleipnir", rarity: "Epic", stars: 4, mythology: "Norse", description: "Odin's eight-legged steed" },
             { name: "Nidhogg", rarity: "Epic", stars: 4, mythology: "Norse", description: "Dragon that gnaws at Yggdrasil" },
             { name: "Huginn & Muninn", rarity: "Epic", stars: 4, mythology: "Norse", description: "Odin's ravens of thought and memory" },
+            { name: "Garmr", rarity: "Epic", stars: 4, mythology: "Norse", description: "Blood-stained guardian of Helheim" },
+            { name: "Ratatoskr", rarity: "Epic", stars: 4, mythology: "Norse", description: "Messenger squirrel of Yggdrasil" },
+            { name: "Hræsvelgr", rarity: "Epic", stars: 4, mythology: "Norse", description: "Giant eagle who creates the winds" },
+
+            // Warriors & Spirits - Rare (3★)
+            { name: "Valkyrie", rarity: "Rare", stars: 3, mythology: "Norse", description: "Chooser of the slain" },
+            { name: "Frost Giant", rarity: "Rare", stars: 3, mythology: "Norse", description: "Ancient being of ice and snow" },
             { name: "Dwarf Smith", rarity: "Rare", stars: 3, mythology: "Norse", description: "Master craftsman of the underground" },
             { name: "Light Elf", rarity: "Rare", stars: 3, mythology: "Norse", description: "Beautiful being of Alfheim" },
             { name: "Lindworm", rarity: "Rare", stars: 3, mythology: "Norse", description: "Serpentine dragon" },
+            { name: "Draugr", rarity: "Rare", stars: 3, mythology: "Norse", description: "Undead warrior guardian" },
+
+            // Common Spirits - Common (2★)
             { name: "Nisse", rarity: "Common", stars: 2, mythology: "Norse", description: "Household guardian spirit" },
-            { name: "Tomte", rarity: "Common", stars: 2, mythology: "Norse", description: "Farm guardian gnome" }
+            { name: "Tomte", rarity: "Common", stars: 2, mythology: "Norse", description: "Farm guardian gnome" },
+            { name: "Landvættir", rarity: "Common", stars: 2, mythology: "Norse", description: "Land spirit protector" },
+            { name: "Fylgja", rarity: "Common", stars: 2, mythology: "Norse", description: "Following spirit guardian" }
         ]
     },
     japanese: {
